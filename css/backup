@@ -1,0 +1,32 @@
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="contact">
+	    <form action="mail/contact_me.php" method="post" enctype="multipart/form-data">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Name</label>
+                <input name="name" class="form-control" required data-validation-required-message="Please enter your name." placeholder="Your Name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Email</label>
+                <input name="email" type="email" class="form-control" required data-validation-required-message="Please enter your email address." placeholder="Your Email">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Message</label>
+                <textarea name="message" cols="20" rows="5" class="form-control" required data-validation-required-message="Please enter your email address." placeholder="Message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>   
+		    <input id="submit" class="btn btn-secondary" name="submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
